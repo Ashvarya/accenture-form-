@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accenture Registration Form </title> 
+    <style>
+        input[type=submit] {
+            width:10%;
+            background-color:purple ;
+            color:white;
+            /* padding:14px 20px; */
+            /* margin:8px 0; */
+            /* border:none; */
+            /* border_redius:4px; */
+            /* cursor:pointer; */
+        }
+        input[type=submit]:hover{
+            background:#000;
+        }
+    </style>
+
+</head>
+<body>
+    <br>
+    <h1> Registration Form of Accenture</h1>
+    <br>
+    <h2>Select Job</h2>
+    <h3>job</h3>
+    <form action="form.php"></form>
+        <input type ="checkbox"placeholder="Associate Software Engineer"> 
+    <label for="software"> Associate Software Engineer
+    </label>
+    <br>
+        <p1><font color="blue">View Job Description</font></p1>
+         
+        <br>
+        <h2>Source Details</h2>
+        <h3>How did you find out about this job?<font color="red">*</font></h3>
+    
+        <Select name="Select" id="Select">
+            <option value="Select"> --select--</option>
+            <option value="job board">job board</option>
+            <option value="Accenture Employee Referral">Accenture Employee Referral</option>
+            <option value="Social Media Advertisement">Social Media Advertisement</option>
+        </select>
+        <h3>job board</h3>
+        <select name ="Select"id="select">
+            <option value="Select">--select--</option>
+        
+            <option value="Naukri">Naukri</option>
+            <option value="monster">monster</option>  
+            <option value="shine">shine</option>  
+            <option value="Linkedin">Linkedin</option>  
+            <option value="Jobsforher">Jobsforher</option>  
+            <option value="Others">Others</option>  
+        </select>
+        
+            <h3>Accenture Employee Email ID</h3>
+
+            <input type="text" placeholder=" Accenture Employee Email ID  ">
+            <br>
+            <p1> Please enter the Employee Email ID of the Accenture Employee who referred you</p1>
+                
+        <h3>Socical Media Advertisement</h3>
+        <select name ="Select"id="select">
+            <option value="Select">--select--</option>
+        
+            <option value="Twitter">Twitter</option>
+            <option value="Linkedin">Linkedin</option>  
+            <option value="Facebook">Facebook</option>  
+            <option value="Other">Other</option>  
+             </select>
+            <br>
+            <h2>Personal Details</h2>
+            <h3>First Name <font color="red">*</font></h3>
+            <input type="text" placeholder="First name ">
+            <br>
+            <p1>Please enter your name as mentioned in your PAN card/ Government ID card <font color="blue">Help</font></p1>
+            <br>
+            <h3>Middle Name</h3>
+            <input type="text" placeholder="Middle Name">
+            <br>
+            <p1>if you do not have  middle name, please keep  the middle name section blank</p1>
+            <h3>Last Name<font color="red">*</font></h3>
+            <input type ="text"placeholder="Last Name">
+            <br>
+            <p1>In case you don't have last name, kindly mention your Father/Mother's name as specified in PAN card / Government ID card
+            </p1>
+            <h3>University Registration No<font color="red">*</font></h3>
+            <input type="text"placeholder="University Registration No">
+            <h3>Email Id<font color="red">*</font></h3>
+            <input type="text"placeholder="Email Id">
+            <br>
+            <p1>Enter your personal Email ID which will be used for all future notifications. No changes will be permitted post submission
+            </p1>
+            <h3>Mobile Number<font color="red">*</font></h3>
+            <input type="text"placeholder="Mobile Number">
+            <br>
+            <p1>Enter your personal contact number which will be used for all future notifications. No changes will be permitted post submission</p1>
+            <h3>WhatsApp Consent<font color="red">*</font> </h3>
+            <select name ="select" id="select">
+                <option value="select">--select--</option>
+<option value ="Yes,I consent">Yes,I consent</option>
+<option value ="No,I do not consent">No,I do not consent</option>
+            </select>
+            <br>
+            <p1>If you consent, Accenture may use WhatsApp as an additional means of communication with you. The communication could include recruitment/onboarding related alerts and notifications, for example - video interview guides, recruitment process flow, FAQs, screening questions, important contact details, survey links. For the limited purposes of sharing important information with you via WhatsApp messages, Accenture will share your name and registered mobile number with third-party vendor authorized by Accenture.
+                In case you do not give Consent, you will not receive any WhatsApp Notification from Accenture.
+                </p1>
+                <h3>Alternate Mobile Number</h3>
+                <input type="text"placeholder=" Enter Alternate Mobile Number">
+                <h3>PAN<font color="red">*</font></h3>
+                <input type="text"placeholder="PAN">
+                <br>
+                <p1>Enter your PAN Number as mentioned in your PAN Card. The details once entered cannot be changed, so please ensure to enter the correct details.
+                </p1>
+                <h3>Date of Birth<font color="red">*</font></h3>
+              <input type="text"placeholder="Date of Birth">
+              <br>
+              <p1>Please enter your DOB </p1>
+              <h3>Gender<font color="red">*</font></h3>
+              <label for="maleid">
+              <input type ="radio" value ="Male"name="gender" id="maleid">male
+              </label>
+    <label for ="femaleid">
+              <input type ="radio"value="female"name="gender" id="femaleid">female
+    </label>
+        
+<br>
+<h2>Educational Details</h2>
+<h3>Highest Eduaction Profile</h3>
+<h4>Education Type <font color="red">*</font></h4>
+<select name= "select"id="select">
+    <option name="select">--select--</option>
+    <option name="under graduate">under graduate</option>
+    <option name="post graduate">post graduate</option>
+</select>
+  
+<h2>Certification Details</h2>
+<h3>Certification 1 based on Primary/Secondary skill</h3>
+<select name="select "id="select">
+    <option name="select">--select--</option>
+    <option name="Salesforce Platform Developer 1">Salesforce Platform Developer 1</option>
+    <option name="Salesforce Platform App Builder">Salesforce Platform App Builder</option>
+    <option name="Salesforce Administrator">Salesforce Administrator</option>
+    <Option name="C_TAW12_750:SAP Certified Development Associate-ABAP with SAP NetWeaver 7.50">C_TAW12_750:SAP Certified Development Associate-ABAP with SAP NetWeaver 7.50</option>
+    <option name="70-483:Programming in C#">70-483:Programming in C#</option>
+    <option name="70-486::Developing ASP.NET MVC Web Applications">70-486::Developing ASP.NET MVC Web Applications</option>
+</select>
+    <br>
+    <h3>Certification 2 based on Primary/Secondary skill</h3>
+    <select name="select"id="select">
+        <option name="select">--select--</option>
+        <option name="Salesforce Platform Developer 1">Salesforce Platform Developer 1</option>
+        <option name="Salesforce Platform App Builder">Salesforce Platform App Builder</option>
+        <option name="Salesforce Administrator">Salesforce Administrator</option>
+        <Option name="C_TAW12_750:SAP Certified Development Associate-ABAP with SAP NetWeaver 7.50">C_TAW12_750:SAP Certified Development Associate-ABAP with SAP NetWeaver 7.50</option>
+        <option name="70-483:Programming in C#">70-483:Programming in C#</option>
+        <option name="70-486::Developing ASP.NET MVC Web Applications">70-486::Developing ASP.NET MVC Web Applications</option> 
+    </select>
+<br>
+<h2>PWD Details</h2>
+<h3>Do you consider yourself to have a disability (Note: Accenture recognizes a wide range of disabilities as identified by the Rights for Persons with Disabilities Act, India 2016 and United Nations International Labour Organization)? <font color="red">*</font></h3>
+<select name="select" id="select">
+    <option name="select">--select--</option>
+    <option name="Do not wish to disclose">Do not wish to disclose</option>
+    <option name="">Yes</option>
+    <option name="No">No</option>
+</select>
+<br>
+<p1>This census is voluntary and if you are uncomfortable about disclosing your disability, please select the "Do Not Wish to Disclose" option. The data/information will be used to serve lawful purposes, including enabling accessibility and assistive support for persons with disabilities based on the need and as maybe reasonably provided by Accenture. This information will not be used to influence hiring decisions and will be maintained confidential as per Accenture’s Data Privacy Policy.</p1>
+<h2>Preferred job Location</h2>
+<h3>Preferred job Location 1<font color="red">*</font></h3>
+<select name="select"id ="select">
+    <option name="select">--Select--</option>
+    <option name="Bengaluru Cluster 1(Whitefield/Marathali?Bellandur)">Bengaluru Cluster 1(Whitefield/Marathali?Bellandur)</option>
+    <option name="Bengaluru Cluster 2 (Bannaerghatta Poad/Mysor Road)">Bengaluru Cluster 2 (Bannaerghatta Poad/Mysor Road)</option>
+    <option name="chennai">chennai</option>
+    <option name="Gurugram">Gurugram</option>
+    <option name="Hyderabad">Hyderabad</option>
+    <option name="Kolkata">Kolkata</option>
+    <option name="Mumbai">Mumbai</option>
+    <option name="Pune Cluster 1(Magaratta/Hadapsar)"></option>
+    <option name="Pune Cluster 2 (Hinjewadi)">Pune Cluster 2 (Hinjewadi)</option>
+</select>
+
+<h3>Preferred job Location 2<font color="red">*</font></h3>
+<select name="select"id ="select">
+    <option name="select">--Select--</option>
+    <option name="Bengaluru Cluster 1(Whitefield/Marathali?Bellandur)">Bengaluru Cluster 1(Whitefield/Marathali?Bellandur)</option>
+    <option name="Bengaluru Cluster 2 (Bannaerghatta Poad/Mysor Road)">Bengaluru Cluster 2 (Bannaerghatta Poad/Mysor Road)</option>
+    <option name="chennai">chennai</option>
+    <option name="Gurugram">Gurugram</option>
+    <option name="Hyderabad">Hyderabad</option>
+    <option name="Kolkata">Kolkata</option>
+    <option name="Mumbai">Mumbai</option>
+    <option name="Pune Cluster 1(Magaratta/Hadapsar)"></option>
+    <option name="Pune Cluster 2 (Hinjewadi)">Pune Cluster 2 (Hinjewadi)</option>
+</select>
+
+<h3>Preferred job Location 3<font color="red">*</font></h3>
+<select name="select"id ="select">
+    <option name="select">--Select--</option>
+    <option name="Bengaluru Cluster 1(Whitefield/Marathali?Bellandur)">Bengaluru Cluster 1(Whitefield/Marathali?Bellandur)</option>
+    <option name="Bengaluru Cluster 2 (Bannaerghatta Poad/Mysor Road)">Bengaluru Cluster 2 (Bannaerghatta Poad/Mysor Road)</option>
+    <option name="chennai">chennai</option>
+    <option name="Gurugram">Gurugram</option>
+    <option name="Hyderabad">Hyderabad</option>
+    <option name="Kolkata">Kolkata</option>
+    <option name="Mumbai">Mumbai</option>
+    <option name="Pune Cluster 1(Magaratta/Hadapsar)"></option>
+    <option name="Pune Cluster 2 (Hinjewadi)">Pune Cluster 2 (Hinjewadi)</option>
+</select>
+<br>
+<p1>Preferred location refers to the location you would like to join us should you receive an offer. Preference cannot be changed once submitted</p1>
+<br>
+<h2>Result Declaration</h2>
+<h3>Have you completed your final semester exam?<font color="red">*</font></h3>
+<select name="select"id="select">
+    <option name="select">--select--</option>
+    <option name="Yes">Yes</option>
+    <option name="No">No</option>
+</select>
+<br>
+<p1>Have you completed your Final semester Exam</p1>
+
+<br>
+<h2>Assessment Time Details</h2>
+<h3>Your preferred assessment time slot?<font color="red">*</font></h3>
+<select name="select"id="select">
+    <option name="select">--select--</option>
+    <option name="10:00 AM">10:00 AM</option>
+    <option name="2:30 PM"2:30 PM>2:30 PM</option>
+    <option name="5:30 PM">5:30 PM</option>
+</select>
+<br>
+<h2>Others Details</h2>
+<h3>Gap in Education<font color="red">*</font></h3>
+<select name="select"id="select">
+ <option name ="select">--select--</option>   
+ <option name ="More than 1 academic year">More than 1 academic year</option>   
+ <option name ="No Gap/Less 1academic year">No Gap/Less 1academic year</option>   
+ <option name ="One academic year">One academic year</option> 
+ </select>
+ <h3>Have you worked in Accenture before(Full time only)<font color="red">*</font></h3>  
+ <select name="select"id="select">
+<option name="select">--select--</option>
+<option name="Yes">Yes</option>
+<option name="No">No</option>
+</select>
+<h3>Standing Backlog<font color="red">*</font></h3>
+<select name="select"id="select">
+    <option name="Select">--Select--</option>
+    <option name="Yes">Yes</option>
+    <option name="No">No</option>
+</select>
+<br>
+<p1>Please check the<font color="blue">Eligibility Criteria</font></p1>
+<h3>Have you appeared for an assessment and/or interview process for Accenture in the last 6 months (do not consider current registration process)<font color="red">*</font></h3>
+<select name="select"id="select">
+    <option name="select">--select--</option>
+    <option name="Yes">Yes</option>
+    <option name="No">No</option>
+    <br>
+    <p1>Please check the <font color="blue">Eligibility Criteria</font></p1>
+</select>
+<h3>Are you an Indian citizen?<font color="red">*</font></h3>
+<select name="select"id="select">
+    <option name="select">--select--</option>
+    <option name="Indian">Indian</option>
+    <option name="Non-Indian">Non-Indian</option>
+</select>
+<br>
+<p1>Please provide a valid "Are you an Indian citizen?"</p1>
+<br>
+<h2>Arrachments</h2>
+<h3>Resume/CV<font color="red">*</font></h3>
+<p1>(Supported Format: .doc/.docx/.pdf; Max size: 1 MB)
+</p1>
+<br>
+<input type="text"placeholder="Choose File">
+<br>
+<h3>Passport size photograph<font color="red">*</font></h3>
+<p1>(Supported Format: jpg, jpeg, png.; Max size: 3 MB) Uploaded passport size photograph should be latest (Not older than 2 months) <font color="blue">Help</font>
+</p1>
+<br>
+<input type="text"placeholder="Choose File">
+<br>
+<h3>College ID Card<font color="red">*</font></h3>
+<p1>(Supported Format: .jpeg/.png/.jpg; Maximum file size: 3 MB) Upload a copy of your College ID Card card</p1>
+<br>
+<input type="text"placeholder="Choose File">
+<br>
+<h2>Government Photo ID Card</h2>
+<h3>Government ID Type<font color="red">*</font></h3>
+<select name="select"id="select">
+    <option name="select">--select--</option>
+    <option name="Pan Card">Pan Card</option>
+</select>
+<br>
+<h2>Declaration & Consent</h2>
+<h3>Data Privacy</h3>
+<p1>Accenture is committed to protecting your personal information. Your information will be collected, used and may be shared by Accenture with third party service providers to serve lawful purposes, for Accenture recruitment process, including processing of data by third party when required ("Purpose"). Your information shall be held only as long as necessary to achieve the purpose for which it is collected. The use and transfer of your information will be strictly in accordance with the applicable data privacy law and in line with our privacy policy available at <font color="blue">privacy policy </font> <font color="blue">Recruiting and Hiring Statement.</font> Further, you agree and acknowledge that you have read Accenture’s privacy policy and fully understand your rights to access, correct erase, object to processing, restrict to processing or withdraw your personal information anytime and seek a copy of the personal information.
+    <br>
+
+
+<br>
+<br>
+    <form action=" form.php"></form>
+<input type="checkbox"placeholder="I Agree">
+<label for="I Agree">I Agree</label> 
+    <br>
+    <br>
+<p1>I hereby solemnly declare and affirm that the information (personal or otherwise) shared by me at the time of registration is accurate, factually correct, and complete and no material information has been withheld by me. I also agree and acknowledge that I have read and understood the eligibility criteria and the requirements that are necessary for me to perform my services, should I be provided an employment by Accenture. I understand that Accenture may provide me an offer of employment basis preliminary information provided by me and the above declaration concerning my agreement with the<font color="blue"> eligibility criteria</font>. However, I truly understand and acknowledge that my employment with Accenture shall be subject to further verification of details and materials/ documents provided by me as well as any further verification deemed necessary to finalize my candidature. I shall continue to meet the <font color="blue">eligibility criteria.</font> up till and on the date of joining Accenture (if applicable) and agree that Accenture has the right to revoke the offer of employment, in case of failure of verification, my not meeting the<font color="blue"> eligibility criteria</font> / any misrepresentation at my end. In case of any change in my information vis a vis the<font color="blue"> eligibility criteria</font>, I shall be solely responsible for immediately conveying the change to Accenture any time before or on the Date of Joining and Accenture reserves an irrevocable and undisputable right, at its sole discretion to continue to offer or withdraw or withhold my job offer, basis such revision or change in the information shared by me or my status vis-a-vis the <font color="blue">eligibility criteria.</font><font color="blue">
+
+    Your personal d</font>, including but not limited to Photograph & Govt. ID Proof, will be collected and used by Accenture during the recruitment process in accordance with our <font color="blue">Hiring and Recruitment</font> statement. By selecting “Yes” & uploading your information, you hereby acknowledge to have read and understood <font color="blue">Hiring and Recruitment</font> statement. If you select “No”, Accenture may not be able to process your candidature. However , it will not affect lawfulness of processing of information already shared by you.</p1>
+    <br>
+    <br>
+    <form action=" form.php"></form>
+<input type="checkbox"placeholder="I Agree">
+<label for="I Agree">I Agree</label> 
+    <br>
+    <br>
+    <p1>By submitting this application allow Accenture and its authorized agents/representatives to contact (call/SMS) me on my mobile number for recruitment purposes only.</p1>
+    <br>
+    <br>
+    <form action=" form.php"></form>
+<input type="checkbox"placeholder="I Agree">
+<label for="I Agree">I Agree</label> 
+    <br>
+    <br>
+    <p1>I would like to learn more about Accenture and I give my consent to Accenture to use my personal information limited to name, email, phone number and address to contact me in future. I agree, that I want to receive information on what’s latest at Accenture, marketing campaigns or any other promotion material. I understand that my personal information will be dealt strictly in accordance with the applicable data privacy law and in line with Accenture’s privacy policy available at <font color="blue">privacy policy</font> and I can withdraw my consent anytime.</p1>
+    <br>
+    <br>
+    <form action=" form.php"></form>
+<input type="checkbox"placeholder="I Agree">
+<label for="I Agree">I Agree</label> 
+    <br>
+    <br>
+    <p1>I have read and understood all <font color="blue">the system and logistics </font> required for participating in the virtual hiring process. I understand that if I do not have the specified system and logistics requirements, I will not be able to participate or attend the recruitment process either in assessments or during interview and hence would be rejected due to non-participation.</p1>
+   <h3>General Notice</h3>
+    <p1>Accenture has not authorized any agency, company or individual to either collect money or arrive on any monetary arrangement in exchange for a job at Accenture. Accenture's criterion for hiring candidates is merit. Any agency, company or individual offering employment with Accenture in exchange for money is misrepresenting their relationship with Accenture, which has not authorized any such action. If you are approached by any entity or individuals who demand money or any other form of compensation in return for a job offer at Accenture – even if they present themselves as representatives or employees of Accenture – please send the details to <font color="blue">  https://businessethicsline.com/accenture/ .</font> </p1>
+    <br>
+    <br>
+    <br>
+<input type ="submit" value="submit">
+<br>
+    
+</form>
+</body>
+</html>
